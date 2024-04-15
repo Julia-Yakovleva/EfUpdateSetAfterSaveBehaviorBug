@@ -1,0 +1,6 @@
+﻿services:
+  testefbreakingchanges:
+    image: testefbreakingchanges
+    build:
+      context: .
+      dockerfile: TestEFBreakingChanges/Dockerfile
